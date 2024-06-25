@@ -1,7 +1,7 @@
 import { Nav, Navbar, Container, NavLink } from "react-bootstrap";
 
 const MyNav = props => (
-  <Navbar expand="lg" className="bg-body-tertiary">
+  <Navbar className="bg-body-tertiary">
     <Container fluid="md">
       <Navbar.Brand href="#home">📚 EPIBOOKS</Navbar.Brand>
       <Nav>
