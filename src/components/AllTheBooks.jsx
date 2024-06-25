@@ -32,7 +32,7 @@ class AllTheBooks extends React.Component {
         </Container>
         {this.state.genre && <h3 className="mb-3">Chosen genre: {this.state.genre.toUpperCase()}</h3>}
         {this.state.index && (
-          <Row className="gy-3">
+          <Row className="gy-3 mb-3">
             {this.state.index.map(book => {
               return (
                 <Col xs={12} md={4} xl={3}>
